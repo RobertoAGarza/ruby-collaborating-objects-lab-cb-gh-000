@@ -10,8 +10,8 @@ class MP3Importer
     documents = Dir.entries(path)
     documents.each do |file|
       file.match(/.mp3$/)
-    end 
-    
+    end
+
   end
 
 end
