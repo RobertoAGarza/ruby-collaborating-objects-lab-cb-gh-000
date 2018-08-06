@@ -9,7 +9,7 @@ class MP3Importer
   def files
     documents = Dir.entries(path)
     documents.each do |file|
-      file.match(/*.mp3$/)
+      file.match(/.*.mp3$/)
     end
 
   end
